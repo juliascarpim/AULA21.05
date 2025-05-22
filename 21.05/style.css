@@ -1,0 +1,71 @@
+
+body {
+    font-family: Montserrat;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+}
+
+
+#relogio {
+    font-size: 36px;
+    background-color: rgb(112, 106, 170);
+    width: 20%;
+    border-style:outset;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#cronometro {
+    text-align: center;
+}
+
+.btCronometro {
+    text-align: center;
+}
+
+button {
+    width: 80px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+#btIniciar {
+    background-color: rgb(80, 62, 129);
+    color: white;
+}
+
+#btIniciar:hover{
+    background-color: rgb(80, 62, 129); 
+    text-decoration: none;
+}
+
+#btPausar {
+    background-color: rgb(80, 62, 129);
+}
+
+#btPausar:hover{
+    background-color: rgb(12, 148, 41); 
+    text-decoration: none;
+}
+
+
+#btZerar {
+    background-color: rgb(80, 62, 129);
+    color: white;
+}
+
+#btZerar:hover{
+    background-color: rgb(12, 148, 41); 
+    text-decoration: none;
+}
+
